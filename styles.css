@@ -409,13 +409,6 @@ a img{
     overflow: hidden;
     background: transparent;
   }
-  .android-card-container .mdl-card__link {
-    overflow: hidden;
-    background: transparent;
-    vertical-align: middle;
-    text-align: center;
-
-  }
 
     .android-card-container .mdl-card__media img {
       width: 100%;
@@ -442,7 +435,7 @@ a img{
   }
 
   .android-card-container .mdl-card__actions {
-    /*position: absolute;*/
+    position: absolute;
     bottom: 0;
   }
 

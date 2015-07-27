@@ -1,0 +1,11 @@
+.store_link {
+    overflow: hidden;
+    background: transparent;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+   .store_link img {
+      width: 80%;
+      margin-bottom: 5px;
+    }
