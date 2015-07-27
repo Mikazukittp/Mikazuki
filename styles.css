@@ -409,9 +409,20 @@ a img{
     overflow: hidden;
     background: transparent;
   }
+  .android-card-container .mdl-card__link {
+    overflow: hidden;
+    background: transparent;
+    vertical-align: middle;
+    text-align: center;
+
+  }
 
     .android-card-container .mdl-card__media img {
       width: 100%;
+    }
+    .android-card-container .mdl-card__link img {
+      width: 80%;
+      margin-bottom: 5px;
     }
 
   .android-card-container .mdl-card__title {
