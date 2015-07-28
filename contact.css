@@ -1,0 +1,17 @@
+.contact-section {
+  margin:16px auto 16px;
+  width: 350px;
+  }
+
+  .contact-section-btn {
+   border: none;
+   background-color: transparent;
+  }
+
+  .contact-section-btn img{
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+ 
