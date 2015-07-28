@@ -224,10 +224,18 @@ a img{
   position: relative;
   padding-top: 60px;
   padding-bottom: 80px;
+  background-color: rgb(224,224,224)
 }
 
 .android-screens {
   text-align: right;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.android-screens-left {
+  text-align: left;
   width: 100%;
   white-space: nowrap;
   overflow-x: auto;
@@ -287,15 +295,30 @@ a img{
     z-index: 2;
   }
 
+.about-text-first {
+  display: inline-block;
+  width: 500px;
+}
 
-.android-tv {
+.about-image-first {
   display: inline-block;
   width: 300px;
   margin-right: 80px;
 }
 
-  .android-tv .android-screen-image {
-    width: 100%;
+  .about-image-first .android-screen-image {
+    width: 300px;
+    z-index: 1;
+  }
+
+.about-image-second {
+  display: inline-block;
+  width: 300px;
+  margin-left: 80px;
+}
+
+  .about-image-second .android-screen-image {
+    width: 300px;
     z-index: 1;
   }
 
