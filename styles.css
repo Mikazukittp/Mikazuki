@@ -228,14 +228,7 @@ a img{
 }
 
 .android-screens {
-  text-align: right;
-  width: 100%;
-  white-space: nowrap;
-  overflow-x: auto;
-}
-
-.android-screens-left {
-  text-align: left;
+  text-align: center;
   width: 100%;
   white-space: nowrap;
   overflow-x: auto;
@@ -295,33 +288,33 @@ a img{
     z-index: 2;
   }
 
-.about-text-first {
-  display: inline-block;
-  width: 500px;
+.about{
+  margin-bottom: 60px;
 }
 
-.about-image-first {
+
+.about-text {
+  display: inline-block;
+  width: 600px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: left;
+  vertical-align: top;
+}
+.about-image {
   display: inline-block;
   width: 300px;
-  margin-right: 80px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
-  .about-image-first .android-screen-image {
+  .about-image .android-screen-image {
     width: 300px;
     z-index: 1;
   }
-
-.about-image-second {
-  display: inline-block;
-  width: 300px;
-  margin-left: 80px;
-}
-
-  .about-image-second .android-screen-image {
-    width: 300px;
-    z-index: 1;
-  }
-
 
 .android-auto {
   display: inline-block;
