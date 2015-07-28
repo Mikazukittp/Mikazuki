@@ -9,3 +9,8 @@
       width: 80%;
       margin-bottom: 5px;
     }
+ 
+ .store_link__actions {
+    position: absolute;
+    bottom: 0;
+  }
