@@ -287,6 +287,7 @@ a img{
     z-index: 2;
   }
 
+
 .android-tv {
   display: inline-block;
   width: 300px;
@@ -297,6 +298,7 @@ a img{
     width: 100%;
     z-index: 1;
   }
+
 
 .android-auto {
   display: inline-block;
