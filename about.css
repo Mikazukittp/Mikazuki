@@ -1,18 +1,15 @@
-.android-screen-section {
+.about-section {
   position: relative;
   padding-top: 60px;
   padding-bottom: 80px;
   background-color: rgb(224,224,224)
 }
 
-.android-screens {
+.about-contents {
   text-align: center;
-  width: 100%;
-  white-space: nowrap;
-  overflow-x: auto;
 }
 
-.about{
+.about-title{
   margin-bottom: 60px;
 }
 
@@ -39,8 +36,12 @@
   margin-left: 30px;
 }
 
-  .about-image .android-screen-image {
+  .about-image .about-content-image {
     width: 300px;
     height: 200px;
     z-index: 1;
   }
+
+.about-image-link {
+  text-decoration: none;
+}
