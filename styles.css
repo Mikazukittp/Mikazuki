@@ -317,6 +317,7 @@ a img{
 
   .about-image .android-screen-image {
     width: 300px;
+    height: 200px;
     z-index: 1;
   }
 
