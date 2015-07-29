@@ -17,30 +17,29 @@
   letter-spacing: 3px;
 }
 
-@media (max-width: 900px) {
-  .mikazuki-section {
-    height: 350px;
-  }
-
-  .android-slogan {
-    font-size: 26px;
-    margin: 0 16px;
-    padding-top: 24px;
-  }
-
-  .android-sub-slogan {
-    font-size: 16px;
-    margin: 0 16px;
-    padding-top: 8px;
-  }
-}
-
 .mikazuki-section {
   position: relative;
   height: 600px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/hero.jpg') center 30% #ccc no-repeat;
+  background: url('images/hero.jpg') center 30% #999 no-repeat;
   background-size: cover;
 }
 
+@media (max-width: 900px) {
+  .mikazuki-section {
+    height: 350px;
+  }
+
+  .mikazuki-slogan {
+    font-size: 40px;
+    margin: 0 16px;
+    padding-top: 120px;
+  }
+
+  .mikazuki-sub-slogan {
+    font-size: 16px;
+    margin: 0 16px;
+    padding-top: 8px;
+  }
+}
