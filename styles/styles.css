@@ -480,20 +480,22 @@ a img{
 /**** Mobile layout ****/
 @media (max-width: 900px) {
   .android-navigation-container {
-    display: none;
+    /* display: none; */
   }
 
   .android-title {
-    display: none !important;
+    /* display: none !important; */
   }
 
   .android-mobile-title {
+    /*
     display: block !important;
     position: absolute;
     left: calc(50% - 70px);
     top: 12px;
     -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    */
   }
 
   .android-search-box.is-focused ~ .android-mobile-title {

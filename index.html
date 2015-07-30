@@ -28,25 +28,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.css">
+    <link rel="stylesheet" href="styles/material.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/members.css">
-    <link rel="stylesheet" href="styles/material.css">
-    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/works.css">
     <link rel="stylesheet" href="styles/contact.css">
 
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    </style>
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout">
@@ -55,7 +44,7 @@
         <a name="top"></a>
         <div class="hero-section mdl-typography--text-center">
           <div class="mikazuki-font mikazuki-title">MIKAZUKI</div>
-          <div class="mikazuki-font mikazuki-sub-slogan">アイデア×スピードで驚きを追求し続ける</div>
+          <div class="mikazuki-font mikazuki-lead">アイデア×スピードで驚きを追求し続ける</div>
         </div>
       </header>
 
@@ -67,37 +56,21 @@
           </span>
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="android-header-spacer mdl-layout-spacer"></div>
-          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-              <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="search-field" />
-            </div>
-          </div>
           <!-- Navigation -->
           <div class="android-navigation-container">
             <nav class="android-navigation mdl-navigation">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Phones</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Tablets</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Wear</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">TV</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Auto</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">One</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Play</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#members">members</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#about">about</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#works">works</a>
             </nav>
           </div>
-          <span class="android-mobile-title mdl-layout-title">
-            <img class="android-logo-image" src="images/android-logo.png">
-          </span>
         </div>
       </nav>
 
       <div class="android-content mdl-layout__content">
-
+        <a name="members"></a>
         <div class="member-section mdl-typography--text-center">
-          <a name="screens"></a>
-          <div class="mdl-typography--display-1-color-contrast">MEMBERS</div>
+          <div class="mdl-typography--display-1-color-contrast mdl-typography--text-uppercase">members</div>
           <div class="member-screens">
             <div class="member-profile">
               <div class="profile-image" ontouchstart="this.classList.toggle('hover');">
@@ -163,10 +136,9 @@
           </div>
         </div>
 
-        <a name="top"></a>
+        <a name="about"></a>
         <div class="about-section mdl-typography--text-center">
-          <a name="about"></a>
-          <div class="about-title android-font mdl-typography--display-3-color-contrast">About</div>
+          <div class="mdl-typography--display-1-color-contrast mdl-typography--text-uppercase">about</div>
           <div class="about-contents">
             <div class="about-text">
               <div class="mdl-typography--display-1 mdl-typography--display-1-color-contrast">
@@ -201,35 +173,10 @@
           </div>
         </div>
 
-        <div class="android-wear-section">
-          <div class="android-wear-band">
-            <div class="android-wear-band-text">
-              <div class="mdl-typography--display-2 mdl-typography--font-thin">The best of Google built in</div>
-              <p class="mdl-typography--headline mdl-typography--font-thin">
-                Android works perfectly with your favourite apps like Google Maps,
-                Calendar and YouTube.
-              </p>
-              <p>
-                <a class="mdl-typography--font-regular mdl-typography--text-uppercase android-alt-link" href="">
-                  See what's new in the Play Store&nbsp;<i class="material-icons">chevron_right</i>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="android-customized-section">
-          <div class="android-customized-section-text">
-            <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
-            <p class="mdl-typography--font-light">
-              Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
-              <br>
-              <a href="" class="android-link mdl-typography--font-light">Customise your phone</a>
-            </p>
-          </div>
-          <div class="android-customized-section-image"></div>
-        </div>
-        <div class="android-more-section">
-          <div class="android-section-title mdl-typography--display-1-color-contrast">Mikazuki Apps</div>
+        <a name="works"></a>
+        <div class="works-section mdl-typography--text-center">
+          <div class="mdl-typography--display-1-color-contrast mdl-typography--text-uppercase">MIKAZUKI Apps</div>
+
           <div class="android-card-container mdl-grid">
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
@@ -334,9 +281,8 @@
         </footer>
       </div>
     </div>
-    <a href="https://github.com/google/material-design-lite/blob/master/templates/android-dot-com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
+
     <script src="scripts/material.js"></script>
     <script src="scripts/custom.js"></script>
-
   </body>
 </html>

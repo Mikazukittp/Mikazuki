@@ -1,3 +1,9 @@
+.works-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
 .store_link {
     overflow: hidden;
     background: transparent;
@@ -9,7 +15,7 @@
       width: 80%;
       margin-bottom: 5px;
     }
- 
+
  .store_link__actions {
     bottom: 0;
   }

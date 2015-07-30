@@ -67,7 +67,7 @@
   margin-top: 16px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   .member-profile {
     perspective: 1000;
     display: inline-block;
