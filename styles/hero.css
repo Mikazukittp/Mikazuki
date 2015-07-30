@@ -3,7 +3,7 @@
   height: 600px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/hero.jpg') center 30% #999 no-repeat;
+  background: url('../images/hero.jpg') center 30% #999 no-repeat;
   background-size: cover;
 }
 
