@@ -28,9 +28,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="works.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/members.css">
+    <link rel="stylesheet" href="styles/material.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/works.css">
+    <link rel="stylesheet" href="styles/contact.css">
+
     <style>
     #view-source {
       position: fixed;
@@ -44,9 +49,18 @@
     </style>
   </head>
   <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <div class="mdl-layout mdl-js-layout">
 
-      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+      <header class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="hero-section mdl-typography--text-center">
+          <div class="mikazuki-font mikazuki-title">MIKAZUKI</div>
+          <div class="mikazuki-font mikazuki-sub-slogan">アイデア×スピードで驚きを追求し続ける</div>
+        </div>
+      </header>
+
+
+      <nav class="android-header mdl-layout__header mdl-layout__header--scroll mdl-layout__header--static">
         <div class="mdl-layout__header-row">
           <span class="android-title mdl-layout-title">
             <img class="android-logo-image" src="images/android-logo.png">
@@ -73,67 +87,83 @@
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Play</a>
             </nav>
           </div>
-          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
-            <i class="material-icons">more_vert</i>
-          </button>
-          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
-            <li class="mdl-menu__item">5.0 Lollipop</li>
-            <li class="mdl-menu__item">4.4 KitKat</li>
-            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
-            <li class="mdl-menu__item">Android History</li>
-          </ul>
           <span class="android-mobile-title mdl-layout-title">
             <img class="android-logo-image" src="images/android-logo.png">
           </span>
         </div>
-      </div>
-
-      <div class="android-drawer mdl-layout__drawer">
-        <span class="mdl-layout-title">
-          <img class="android-logo-image" src="images/android-logo-white.png">
-        </span>
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Phones</a>
-          <a class="mdl-navigation__link" href="">Tablets</a>
-          <a class="mdl-navigation__link" href="">Wear</a>
-          <a class="mdl-navigation__link" href="">TV</a>
-          <a class="mdl-navigation__link" href="">Auto</a>
-          <a class="mdl-navigation__link" href="">One</a>
-          <a class="mdl-navigation__link" href="">Play</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Versions</span>
-          <a class="mdl-navigation__link" href="">Lollipop 5.0</a>
-          <a class="mdl-navigation__link" href="">KitKat 4.4</a>
-          <a class="mdl-navigation__link" href="">Jelly Bean 4.3</a>
-          <a class="mdl-navigation__link" href="">Android history</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Resources</span>
-          <a class="mdl-navigation__link" href="">Official blog</a>
-          <a class="mdl-navigation__link" href="">Android on Google+</a>
-          <a class="mdl-navigation__link" href="">Android on Twitter</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">For developers</span>
-          <a class="mdl-navigation__link" href="">App developer resources</a>
-          <a class="mdl-navigation__link" href="">Android Open Source Project</a>
-          <a class="mdl-navigation__link" href="">Android SDK</a>
-        </nav>
-      </div>
+      </nav>
 
       <div class="android-content mdl-layout__content">
-        <a name="top"></a>
-        <div class="android-be-together-section mdl-typography--text-center">
-          <div class="android-font android-slogan">be together. not the same.</div>
-          <div class="android-font android-sub-slogan">welcome to android... be yourself. do your thing. see what's going on.</div>
-          <div class="android-font android-create-character">
-            <a href=""><img src="images/andy.png"> create your android character</a>
-          </div>
 
-          <a href="#screens">
-            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-              <i class="material-icons">expand_more</i>
-            </button>
-          </a>
+        <div class="member-section mdl-typography--text-center">
+          <a name="screens"></a>
+          <div class="mdl-typography--display-1-color-contrast">MEMBERS</div>
+          <div class="member-screens">
+            <div class="member-profile">
+              <div class="profile-image" ontouchstart="this.classList.toggle('hover');">
+                <div class="profile-image-front">
+                  <img src="images/profile_matsu_f.jpeg">
+                </div>
+                <div class="profile-image-back">
+                  <img src="images/profile_matsu_b.jpeg">
+                </div>
+              </div>
+              <span class="mdl-typography--font-regular mdl-typography--text-uppercase">旅人</span>
+              <span class="mdl-typography--font-bold mdl-typography--title-color-contrast">まっつん</span>
+            </div>
+            <div class="member-profile">
+              <div class="profile-image" ontouchstart="this.classList.toggle('hover');">
+                <div class="profile-image-front">
+                  <img src="images/profile_toku_f.png">
+                </div>
+                <div class="profile-image-back">
+                  <img src="images/profile_toku_b.jpg">
+                </div>
+              </div>
+              <span class="mdl-typography--font-regular mdl-typography--text-uppercase">プロダクトオーナー </span>
+              <span class="mdl-typography--font-bold mdl-typography--title-color-contrast">ゆーさく</span>
+            </div>
+            <div class="member-profile">
+              <div class="profile-image" ontouchstart="this.classList.toggle('hover');">
+                <div class="profile-image-front">
+                  <img src="images/profile_hei_f.png">
+                </div>
+                <div class="profile-image-back">
+                  <img src="images/profile_hei_b.png">
+                </div>
+              </div>
+              <span class="mdl-typography--font-regular mdl-typography--text-uppercase">開発全般</span>
+              <span class="mdl-typography--font-bold mdl-typography--title-color-contrast">ハイジ</span>
+            </div>
+            </br>
+            <div class="member-profile">
+              <div class="profile-image" ontouchstart="this.classList.toggle('hover');">
+                <div class="profile-image-front">
+                  <img src="images/profile_it_f.png">
+                </div>
+                <div class="profile-image-back">
+                  <img src="images/profile_it_b.png">
+                </div>
+              </div>
+              <span class="mdl-typography--font-regular mdl-typography--text-uppercase">iosエンジニア</span>
+              <span class="mdl-typography--font-bold mdl-typography--title-color-contrast">たっつ</span>
+            </div>
+            <div class="member-profile">
+              <div class="profile-image" ontouchstart="this.classList.toggle('hover');">
+                <div class="profile-image-front">
+                  <img src="images/profile_sara_f.jpg">
+                </div>
+                <div class="profile-image-back">
+                  <img src="images/profile_sara_b.jpg">
+                </div>
+              </div>
+              <span class="mdl-typography--font-regular mdl-typography--text-uppercase">WEBマーケター</span>
+              <span class="mdl-typography--font-bold mdl-typography--title-color-contrast">SARASHI</span>
+            </div>
+          </div>
         </div>
+
+        <a name="top"></a>
         <div class="about-section mdl-typography--text-center">
           <a name="about"></a>
           <div class="about-title android-font mdl-typography--display-3-color-contrast">About</div>
@@ -170,6 +200,7 @@
             </div>
           </div>
         </div>
+
         <div class="android-wear-section">
           <div class="android-wear-band">
             <div class="android-wear-band-text">
@@ -277,12 +308,16 @@
 
         <footer class="android-footer mdl-mega-footer">
           <div class="mdl-mega-footer--top-section">
-            <div class="mdl-mega-footer--left-section">
-              <button class="mdl-mega-footer--social-btn"></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
+            <div class="contact-section">
+              <a class="contact-section-btn" href="https://twitter.com/mikazuki_ttp">
+                <img src="images/twitter.png" alt="">
+              </a>
+              <a class="contact-section-btn" href="https://www.facebook.com/mikazukittp">
+                <img src="images/facebook.png" alt="">
+              </a>
+              <a class="contact-section-btn" href="https://docs.google.com/forms/d/1_TOFrsfjd_7pdshSQL1yUB4R3SiATaOSocOSF0KBAew/viewform">
+                <img src="images/contacts.png" alt="">
+              </a>
             </div>
             <div class="mdl-mega-footer--right-section">
               <a class="mdl-typography--font-light" href="#top">
@@ -293,41 +328,15 @@
           </div>
 
           <div class="mdl-mega-footer--middle-section">
-            <p class="mdl-typography--font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>
-            <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
-          </div>
-
-          <div class="mdl-mega-footer--bottom-section">
-            <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
-              Versions
-              <i class="material-icons">arrow_drop_up</i>
-            </a>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
-              <li class="mdl-menu__item">5.0 Lollipop</li>
-              <li class="mdl-menu__item">4.4 KitKat</li>
-              <li class="mdl-menu__item">4.3 Jelly Bean</li>
-              <li class="mdl-menu__item">Android History</li>
-            </ul>
-            <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
-              For Developers
-              <i class="material-icons">arrow_drop_up</i>
-            </a>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
-              <li class="mdl-menu__item">App developer resources</li>
-              <li class="mdl-menu__item">Android Open Source Project</li>
-              <li class="mdl-menu__item">Android SDK</li>
-              <li class="mdl-menu__item">Android for Work</li>
-            </ul>
-            <a class="android-link mdl-typography--font-light" href="">Blog</a>
-            <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
+            <p class="mdl-typography--font-light footer-section">© 2015 Mikazuki</p>
           </div>
 
         </footer>
       </div>
     </div>
     <a href="https://github.com/google/material-design-lite/blob/master/templates/android-dot-com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
-    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
-
+    <script src="scripts/material.js"></script>
+    <script src="scripts/custom.js"></script>
 
   </body>
 </html>
