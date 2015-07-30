@@ -17,8 +17,8 @@
 @font-face {
   font-family: "And Black";
   src: url("myfont-webfont.eot?#iefix") format('embedded-opentype'),
-       url("fonts/and_black.woff") format('woff'),
-       url("fonts/and_black.ttf") format('truetype');
+       url("../fonts/and_black.woff") format('woff'),
+       url("../fonts/and_black.ttf") format('truetype');
 }
 
 body {
@@ -188,7 +188,7 @@ a img{
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
+  background: url('../images/slide01.jpg') center 30% no-repeat;
   background-size: cover;
 }
 
@@ -315,7 +315,7 @@ a img{
 
 .android-wear-section {
   position: relative;
-  background: url('images/wear.png') center top no-repeat;
+  background: url('../images/wear.png') center top no-repeat;
   background-size: cover;
   height: 800px;
 }
@@ -385,7 +385,7 @@ a img{
   }
 
 .android-customized-section-image {
-  background: url('images/devices.jpg') center top no-repeat;
+  background: url('../images/devices.jpg') center top no-repeat;
   background-size: cover;
   height: 400px;
 }
@@ -480,20 +480,22 @@ a img{
 /**** Mobile layout ****/
 @media (max-width: 900px) {
   .android-navigation-container {
-    display: none;
+    /* display: none; */
   }
 
   .android-title {
-    display: none !important;
+    /* display: none !important; */
   }
 
   .android-mobile-title {
+    /*
     display: block !important;
     position: absolute;
     left: calc(50% - 70px);
     top: 12px;
     -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    */
   }
 
   .android-search-box.is-focused ~ .android-mobile-title {

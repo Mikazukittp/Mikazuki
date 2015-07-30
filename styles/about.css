@@ -1,0 +1,47 @@
+.about-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: rgb(224,224,224)
+}
+
+.about-contents {
+  text-align: center;
+}
+
+.about-title{
+  margin-bottom: 60px;
+}
+
+.about-text {
+  display: inline-block;
+  width: 600px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+.about-text div {
+  margin-bottom: 20px;
+}
+
+.about-image {
+  display: inline-block;
+  width: 300px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+  .about-image .about-content-image {
+    width: 300px;
+    height: 200px;
+    z-index: 1;
+  }
+
+.about-image-link {
+  text-decoration: none;
+}

@@ -1,0 +1,56 @@
+.hero-section {
+  position: relative;
+  height: 600px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('../images/hero.jpg') center 30% #999 no-repeat;
+  background-size: cover;
+}
+
+.mikazuki-font {
+  font-family: 'And Black', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.mikazuki-title {
+  font-size: 100px;
+  padding-top: 200px;
+  letter-spacing: 10px;
+}
+
+.mikazuki-lead {
+  font-size: 24px;
+  padding-top: 24px;
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 900px) {
+  .mdl-layout__header, .android-navigation-container {
+    display: block;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .mdl-layout__container.has-scrolling-header .mdl-layout__content {
+    overflow-y: visible;
+    overflow-x: visible;
+  }
+
+
+  .hero-section {
+    height: 350px;
+  }
+
+  .mikazuki-title {
+    font-size: 40px;
+    margin: 0 16px;
+    padding-top: 120px;
+  }
+
+  .mikazuki-lead {
+    font-size: 16px;
+    margin: 0 16px;
+    padding-top: 8px;
+  }
+}
