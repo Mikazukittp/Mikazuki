@@ -13,9 +13,13 @@
 
    .store_link img {
       width: 80%;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
     }
 
  .store_link__actions {
     bottom: 0;
+  }
+
+  .works-description {
+    text-align: left;
   }
